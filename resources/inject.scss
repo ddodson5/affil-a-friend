@@ -1,11 +1,10 @@
+
 /* Extension-wide styles go here*/
 #affilafriend {
   font-family: "Arial", Gadget, sans-serif !important;
-  /*
-  *   In order to see affilafriend stylings after using cleansweep.css, apply !important to everything
-  */
-  /* General-use classes */ }
-  #affilafriend input[type=text] {
+
+
+   input[type=text] {
     width: 100% !important;
     box-sizing: border-box !important;
     border: none !important;
@@ -13,72 +12,124 @@
     padding: 10px !important;
     /* text-align: left !important; */
     height: 40px !important;
-    line-height: 40px !important; }
-  #affilafriend .popup {
+    line-height: 40px !important;
+    //border-top: 1px solid #FFA500 !important;
+   // border-bottom: 1px solid #FFA500 !important;
+
+  }
+
+  /*
+  *   In order to see affilafriend stylings after using cleansweep.css, apply !important to everything
+  */
+   .popup {
+
     /*text-align:center !important;*/
+
     height: 100% !important;
     min-width: 100px !important;
     /*max-width: 300px;*/
     width: 200px !important;
+
     /*display: block !important;*/
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
+
     border-right: 1px solid #CC8400 !important;
     overflow: hidden !important;
+
     -moz-box-sizing: border-box !important;
     -webkit-box-sizing: border-box !important;
     box-sizing: border-box !important;
+
     background-color: orange !important;
-    /* box-shadow: rgb(181, 181, 181) 1px 0px 3px 3px;*/ }
-  #affilafriend #modal {
+    /* box-shadow: rgb(181, 181, 181) 1px 0px 3px 3px;*/
+  }
+
+   #modal {
     display: block !important;
     position: fixed !important;
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
     /*background-color: red !important;*/
+
     border-radius: 2px !important;
     /*border-color: rgba(228,0,0,1) !important;*/
     border-style: solid !important;
     /* border-width: 25px !important; */
     box-sizing: border-box !important;
-    /*width: 300px !important;*/ }
-  #affilafriend .padded {
-    margin: 10px !important; }
-  #affilafriend input, #affilafriend select, #affilafriend textarea, #affilafriend button {
+    /*width: 300px !important;*/
+
+  }
+
+   .padded {
+    margin: 10px !important;
+  }
+
+   input, select, textarea, button {
     /*Because for some reason SOME browsers don't let form elements inherit the body's font-family*/
-    font-family: inherit !important; }
-  #affilafriend .inner {
+    font-family: inherit !important;
+  }
+
+
+   .inner {
     position: relative !important;
     top: 50% !important;
-    transform: translateY(-50%) !important; }
-  #affilafriend .close {
-    text-align: right !important; }
-  #affilafriend .close .icon {
-    float: right !important; }
-  #affilafriend .close .icon:hover {
-    cursor: pointer !important; }
-  #affilafriend .input {
-    border: 2px solid gray !important; }
-  #affilafriend .submit {
-    margin: 0 !important;
-    padding: 10px !important;
-    width: 100% !important;
-    border-style: none !important;
-    border-radius: 0 !important;
-    box-sizing: border-box !important;
-    background: beige !important; }
-  #affilafriend .hidden {
-    display: none !important; }
-  #affilafriend .visible {
-    display: block !important; }
-  #affilafriend .horizontally-centered {
+    transform: translateY(-50%) !important;
+  }
+
+   .close {
+
+    text-align: right !important;
+  }
+
+   .close .icon {
+    float: right !important;
+  }
+
+   .close .icon:hover {
+    cursor: pointer !important;
+  }
+
+   .input {
+    border: 2px solid gray !important;
+  }
+
+   .submit {
+
+     margin: 0 !important;
+     padding: 10px !important;
+     width: 100% !important;
+     border-style: none !important;
+     border-radius: 0 !important;
+     //-moz-box-sizing: border-box !important;
+     //-webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
+
+     background: beige !important;
+    //border: 1px solid #FFB836 !important;
+
+  }
+
+  /* General-use classes */
+
+   .hidden {
+    display: none !important;
+  }
+
+   .visible {
+    display: block !important;
+  }
+
+  .horizontally-centered {
     position: relative !important;
     left: 50% !important;
-    transform: translateX(-50%) !important; }
+    transform: translateX(-50%) !important;
+  }
+
+}
 
 .affilafriend-body-push {
-  padding-left: 200px !important; }
-
-/*# sourceMappingURL=inject.css.map */
+  padding-left: 200px !important;
+}
